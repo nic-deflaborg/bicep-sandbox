@@ -44,6 +44,8 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2021-08-01' = {
   }
   kind: storageKind
   properties: {
+    minimumTlsVersion: 'TLS1_2'
+    supportsHttpsTrafficOnly: true
     isHnsEnabled: isHnsEnabled
     networkAcls: {
       bypass: bypass

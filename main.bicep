@@ -152,7 +152,7 @@ module labFunctionApp 'modules/functionapp.bicep' = {
 resource labFunctionAppSettings 'Microsoft.Web/sites/config@2021-03-01' = {
   name: 'fa-${env}-lab/appsettings'
   properties: {
-    APPINSIGHTS_INSTRUMENTATIONKEY: labFunctionApp.outputs.instrumentationKey
+    APPINSIGHTS_INSTRUMENTATIONKEY: 'xldi5m6m4nrkl49mnxx232454xfefefeggr'
     FUNCTIONS_EXTENSION_VERSION: '~3'
     labappusername: 'admin'
     labappassword: 'P@ssword123'

@@ -27,4 +27,3 @@ param labSecretNames = [
 ]
 param vnetRg = 'net-rg'
 param IPWhitelist = '10.0.0.0'
-
